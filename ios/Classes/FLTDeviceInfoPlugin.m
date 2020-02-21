@@ -130,7 +130,7 @@
                                 @"iPad6,3"   :@"iPad Pro 9.7inch WiFi",         // iPad Pro 9.7inch WiFi
                                 @"iPad6,4"   :@"iPad Pro 9.7inch Cell",         // iPad Pro 9.7inch Cellular
                                 @"iPad6,7"   :@"iPad Pro 12.9inch WiFi",        // iPad Pro 12.9inch WiFi
-                                @"iPad6,8"   :@"iPad Pro 12.9inch Cell"         // iPad Pro 12.9inch Cellular
+                                @"iPad6,8"   :@"iPad Pro 12.9inch Cell",        // iPad Pro 12.9inch Cellular
                                 @"iPad6,11"  :@"iPad 5th",                      // iPad 5th Generation WiFi
                                 @"iPad6,12"  :@"iPad 5th",                      // iPad 5th Generation Cellular
                                 @"iPad7,1"   :@"iPad Pro 12.9inch 2nd",         // iPad Pro 12.9inch 2nd Generation WiFi
@@ -138,7 +138,7 @@
                                 @"iPad7,3"   :@"iPad Pro 10.5inch",             // iPad Pro 10.5inch WiFi
                                 @"iPad7,4"   :@"iPad Pro 10.5inch",             // iPad Pro 10.5inch Cellular
                                 @"iPad7,5"   :@"iPad 6th",                      // iPad 6th Generation WiFi
-                                @"iPad7,6"   :@"iPad 6th"                       // iPad 6th Generation Cellular
+                                @"iPad7,6"   :@"iPad 6th",                      // iPad 6th Generation Cellular
                                 @"iPad8,1"   :@"iPad Pro 11inch WiFi",          // iPad Pro 11inch WiFi
                                 @"iPad8,2"   :@"iPad Pro 11inch WiFi",          // iPad Pro 11inch WiFi
                                 @"iPad8,3"   :@"iPad Pro 11inch Cell",          // iPad Pro 11inch Cellular
@@ -157,7 +157,7 @@
     NSString* deviceName = [deviceNamesByCode objectForKey:code];
 
     if (!deviceName) {
-        // äYìñÇ∑ÇÈÉfÉoÉCÉXñºÇ™Ç»Ç¢èÍçáÅAã@éÌÇÃÇ›êÑíËÇ∑ÇÈ
+        // Ë©≤ÂΩì„Åô„Çã„Éá„Éê„Ç§„ÇπÂêç„Åå„Å™„ÅÑÂ†¥Âêà„ÄÅÊ©üÁ®Æ„ÅÆ„ÅøÊé®ÂÆö„Åô„Çã
 
         if ([code rangeOfString:@"iPod"].location != NSNotFound) {
             deviceName = @"iPod Touch";
