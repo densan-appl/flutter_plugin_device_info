@@ -221,6 +221,7 @@ class IosDeviceInfo {
     this.systemName,
     this.systemVersion,
     this.model,
+    this.modelName,
     this.localizedModel,
     this.identifierForVendor,
     this.isPhysicalDevice,
@@ -238,6 +239,7 @@ class IosDeviceInfo {
 
   /// Device model.
   final String model;
+  final String modelName;
 
   /// Localized name of the device model.
   final String localizedModel;
@@ -258,6 +260,7 @@ class IosDeviceInfo {
       systemName: map['systemName'],
       systemVersion: map['systemVersion'],
       model: map['model'],
+      modelName: map['modelName'],
       localizedModel: map['localizedModel'],
       identifierForVendor: map['identifierForVendor'],
       isPhysicalDevice: map['isPhysicalDevice'] == 'true',
